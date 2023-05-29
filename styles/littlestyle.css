@@ -1,0 +1,49 @@
+@media (max-width: 950px) {
+    header{
+        grid-template-columns: 30% 70%;
+    }
+    
+    header .menu-icon {
+        text-align: right;
+        padding: 0% 10% 0% 0%;
+        display: block;
+    }
+
+    header .center, header .right{
+        display: none;
+    }
+
+    header .left {
+        font-size: 10px;
+        padding: 0% 0% 0% 30%;
+        place-content: center;
+    }
+
+    header .left img {
+        width: 60px;
+    }
+
+    header .big-title {
+        display: none;
+    }
+     
+    .side-menu {
+        grid-template-columns: repeat(1, 1fr);
+        display: none;
+        place-items: center;
+        height: 50vh;
+        margin-top: 30%;
+        background-color: #312E4B;
+        color: white;
+    }
+
+    .side-menu button:hover, .side-menu span:hover  {
+        color:#8688ad;
+    }
+
+    .side-menu button {
+        all: unset;
+    }
+
+
+}
