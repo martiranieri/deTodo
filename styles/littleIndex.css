@@ -1,0 +1,50 @@
+
+@media (max-width: 950px) {
+    .side-menu {
+        grid-template-columns: repeat(1, 1fr);
+        display: none;
+        place-items: center;
+        height: 50vh;
+        margin-top: 30%;
+        background-color: #312E4B;
+        color: white;
+    }
+
+    .side-menu button:hover, .side-menu span:hover  {
+        color:#8688ad;
+    }
+
+    .side-menu button {
+        all: unset;
+    }
+
+    /* BODY */
+    .main-image .text {
+        top: 20%;
+    }
+
+    .main-image h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    /* BODY */
+    .main-image h2 {
+        font-size: 20px;
+    }
+
+    .main-image p {
+        font-size: 15px;
+    }
+
+    .main-image button {
+        font-size: 10px;
+        width: 100%;
+    }
+    .main-image .text{
+        top: 35%;
+        left: 20%;
+        right: 20%;
+    }
+}

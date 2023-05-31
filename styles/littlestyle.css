@@ -13,7 +13,7 @@
         display: none;
     }
 
-    header .left {
+    header .left-header {
         font-size: 10px;
         padding: 0% 0% 0% 30%;
         place-content: center;
@@ -23,26 +23,8 @@
         width: 60px;
     }
 
-    header .big-title {
+    header .main-title {
         display: none;
-    }
-     
-    .side-menu {
-        grid-template-columns: repeat(1, 1fr);
-        display: none;
-        place-items: center;
-        height: 50vh;
-        margin-top: 30%;
-        background-color: #312E4B;
-        color: white;
-    }
-
-    .side-menu button:hover, .side-menu span:hover  {
-        color:#8688ad;
-    }
-
-    .side-menu button {
-        all: unset;
     }
 
 

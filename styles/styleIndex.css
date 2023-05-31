@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #8688ad;
+}
+
+  /* Body */
+  /*Main image index*/
+  .button {
+	height: 60px;
+    width: 200px;
+    border-radius: 15px;
+	text-decoration: none;
+    border: none;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all .3s ease-in-out;
+    background-color: #312E4B;
+    color: #fff;
+    pointer-events: all;
+}
+
+.button:hover {
+    background-color: #8688ad;
+    color: #312E4B;
+}
+
+.main-image  {
+    position: relative;
+}
+
+.main-image img {
+    top: 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 55%;
+    filter: grayscale(30%);
+    filter: opacity(60%);
+    filter: brightness(0.3);
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s  ease-in-out;
+}
+
+.main-image img:hover {
+    filter: brightness(0.4);
+}
+
+.main-image .text {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    right: 30%;
+    text-align: center;
+    color: white;
+    pointer-events: none;
+}
+
+.main-image h2 {
+    font-size: 40px;
+
+}
+
+.main-image p {
+    font-size: 20px;
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
