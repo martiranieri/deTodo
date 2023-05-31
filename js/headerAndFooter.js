@@ -12,7 +12,7 @@ function sideBarClose() {
     document.querySelector("main").style.display = "initial";
 }
 
-function header(){
+function headerAndFooter(){
     document.querySelector("header").innerHTML += `
         <div class="left-header">
             <img src="img/icon.png" width="40px">
@@ -40,5 +40,14 @@ function header(){
                 menu
             </button>
         </div>
+    `
+
+    document.querySelector("footer").innerHTML += `
+    <div class="footer">
+        <div class="text-center p-3">
+        © 2023 Copyright:
+        <a class="text-light" href="https://github.com/martiranieri/deTodo">github.com/martiranieri</a>
+        </div>
+    </div>
     `
 }

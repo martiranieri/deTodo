@@ -1,0 +1,14 @@
+main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.categorias {
+    background-color: #8688AD;
+    /* height: 100vh; */
+}
+
+.productos {
+    background-color: #8688ad86;
+  /*   height: 100vh; */
+}

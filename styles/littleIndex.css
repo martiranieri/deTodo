@@ -1,3 +1,9 @@
+@media (max-width: 1200px) {
+    .card {
+        width: 15rem;
+    }
+}
+
 
 @media (max-width: 950px) {
     .side-menu {
@@ -26,9 +32,21 @@
     .main-image h2 {
         font-size: 25px;
     }
+
+    .cards-1, .cards-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-1 .card, .cards-2 .card{
+        margin: 7% 0% 0% 0%;
+    }
+    .card {
+        width: 18rem;
+    }
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     /* BODY */
     .main-image h2 {
         font-size: 20px;
@@ -46,5 +64,17 @@
         top: 35%;
         left: 20%;
         right: 20%;
+    }
+
+
+    .cards-1, .card-2 {
+        margin: 5% 0% 0% 0%;
+    }
+
+    .card {
+        width: 13rem;
+    }
+    .card button {
+        width: 100%;
     }
 }
