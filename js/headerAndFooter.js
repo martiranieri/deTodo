@@ -15,13 +15,18 @@ function sideBarClose() {
 function headerAndFooter(){
     document.querySelector("header").innerHTML += `
         <div class="left-header">
+        <a href="index.html" class="none">
             <img src="img/icon.png" width="40px">
+        </a>
+        <a href="index.html" class="none">
             <h2 class="main-title"><strong>De Todo</strong></h2>
+        </a>
+        
         </div>
         <div class="center">
-            <button href="#" class="hover-underline-animation">Home</button>
-            <button href="#" class="hover-underline-animation">Shop</button>
-            <button href="#" class="hover-underline-animation">Conctact</button>
+            <a href="index.html"> <button class="hover-underline-animation">Home</button> </a>
+            <a href="shop.html"><button class="hover-underline-animation">Shop</button></a>
+            <a href="contact.html"> <button class="hover-underline-animation">Conctact</button> </a>
             <button href="#" class="hover-underline-animation">About us</button>
         </div>
         <div class="right">

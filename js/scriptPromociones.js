@@ -12,5 +12,8 @@
         </div>
         `
     });
+    document.querySelector(".categorias").innerHTML += `
+    <button type="submit" class="button"> Aplicar </button>
+    `
     }
 );

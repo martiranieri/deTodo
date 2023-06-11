@@ -3,12 +3,42 @@ main {
     grid-template-columns: 30% 70%;
 }
 
-.categorias {
-    background-color: #8688AD;
-    /* height: 100vh; */
+
+.button {
+	height: 60px;
+    width: 200px;
+    border-radius: 15px;
+	text-decoration: none;
+    border: none;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all .3s ease-in-out;
+    background-color: #312E4B;
+    color: #fff;
+    pointer-events: all;
 }
 
+.button:hover {
+    background-color: #8688ad;
+    color: #312E4B;
+}
+
+.categorias {
+    background-color: #8688AD;
+    display: grid;
+    padding: 0% 10% 5% 0%;
+}
+
+.categorias .button {
+    place-self: center;
+    margin: 6% 0% 0% 0%;
+}
+
+.form-check {
+    margin: 5%;
+}
 .productos {
     background-color: #8688ad86;
-  /*   height: 100vh; */
+
 }

@@ -19,7 +19,7 @@ header .left-header{
 margin-top: 10px;
 }
 
-header button {
+header button, .none {
     all: unset;
 }
 
